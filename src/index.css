@@ -1,0 +1,67 @@
+/* Resetting margin and padding for all elements */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styles */
+body {
+  margin: 0; /* Remove body margin */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background-color: #18181b; /* Background color */
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+footer {
+  width: 100%; /* Full width */
+  background-color: #18181b; /* Footer background color */
+  color: white; /* Text color */
+  text-align: center; /* Center text */
+  padding: 16px; /* Padding for the footer */
+}
+/* Responsive grid for projects */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive layout */
+  gap: 20px; /* Space between items */
+  margin-top: 20px; /* Space above the grid */
+}
+
+/* Card styles */
+.card {
+  border: 1px solid #444; /* Subtle border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 16px; /* Internal padding */
+  transition: transform 0.3s, box-shadow 0.3s; /* Transition for hover effects */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+/* Footer styles */
+footer {
+  background-color: #18181b; /* Consistent background */
+  color: white; /* White text */
+  padding: 16px; /* Padding for footer */
+  text-align: center; /* Centered text */
+}
+
+/* Link styles */
+.App-link {
+  color: #61dafb;
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s; /* Smooth transition */
+}
+
+.App-link:hover {
+  color: #21a1f1; /* Darker on hover */
+}
