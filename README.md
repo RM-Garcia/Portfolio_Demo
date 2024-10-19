@@ -1,6 +1,7 @@
 # My Demo Portfolio Page
 
 This repository contains the code for a personal portfolio website created as part of my final lab for the Advanced React course.
+It uses Chakra UI for styling and Formik with Yup for form validation.
 
 ## Features
 
