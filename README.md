@@ -20,11 +20,13 @@ To set up the project locally, follow these steps:
    cd my-portfolio
 
 2. **Install dependencies**:
-
-  git clone
+   ```bash
+     git clone
+   ```
 
 3. **Start the development server**:
-
-npm start
+   ```bash
+   npm start
+   ```
 
 The app will be available at http://localhost:3000.
