@@ -10,6 +10,8 @@ It uses Chakra UI for styling and Formik with Yup for form validation.
 - **Projects Section** displaying featured projects in a grid layout.
 - **Contact Me Section** with a form that validates input using Formik and Yup.
 
+## GIF
+[GIF of the project.](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnlyZjBsczNqbDI1MHo4NWJ2d2pnc2FoNmdreDZpamVnNW54c2VtdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5M71nvWwTxDIKMuuJw/giphy.gif)
 
 ## How to Install
 
